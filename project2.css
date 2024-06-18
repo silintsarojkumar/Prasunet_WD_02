@@ -1,10 +1,5 @@
 
-/*.body{
-    display: grid;
-    justify-content: left;
-    height: 50%;
-    width: 50%;
-}*/
+
 body{
     background-color: #dcdde1;
     margin: 0px;
@@ -52,16 +47,12 @@ hr{
 }
 #Stopwatch{
     display: grid;
-    /* justify-content: center; */
+    
     
     
     width: 100%;
     height: 100%;
-    /* background:
-    linear-gradient(red, transparent),
-    linear-gradient(to top left, lime, transparent),
-    linear-gradient(to top right, blue, transparent);
-    background-blend-mode: screen; */
+    
     
 }
 .stopwatch-text{
