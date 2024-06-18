@@ -1,26 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+    
     
     <title>Stopwatch</title>
     <link href="project2.css" rel="stylesheet">
 
 </head>
 <body>
-    <div class="body">
+    <header>
+        <div class="logo">
+            <img src="https://www.shutterstock.com/image-vector/vector-flat-illustration-digital-clock-260nw-2198226667.jpg">
+        </div>
+        <div class="links">
+            <button class="nev-button" id="home">HOME</button>
+            <button class="nev-button" id="about">ABOUT</button>
+        </div>
+    </header>
+   <div class="body">
     <div id="Stopwatch">
-        <h1>STOPWATCH</h1>
+        <h1 class="stopwatch-text">STOPWATCH</h1>
+        <hr />
         
         <div id="display">
             00:00:00:00
         </div>
+        <hr />
         <div class="keys">
             <button class="start button" onclick="start()"><b>Start</b></button>
             <button class="paus button" onclick="stop()"><b>Stop</b></button>
-            <button class="stop button" onclick="reset()"><b>Reset</b> </button>
+            <button class="stop button" onclick="reset()"><b>Reste</b> </button>
         </div>
     </div>
    </div>
+   
     
     <script src="project2.js" rel>
         
