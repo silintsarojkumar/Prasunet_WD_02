@@ -1,29 +1,82 @@
 
-.body{
+/*.body{
     display: grid;
+    justify-content: left;
+    height: 50%;
+    width: 50%;
+}*/
+body{
+    background-color: #dcdde1;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    display:flex ;
+    height: 60px;
+    border-bottom: 3px solid black;
+    background-color: white;
+    }
+.logo{
+    width: 50%;
+    display: flex;
     justify-content: center;
+   
+    
+}
+img{
+    height: 60px;
+    
+}
+.links{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+.nev-button{
+    cursor: pointer;
+    margin-left: 4px;
+    background-color:white;
+    border: none;
+    font-size: 15px;
+   
+}
+.nev-button:hover{
+    background-color: #718093;
+    border-top: 4px solid #7f8fa6;
+}
+hr{
+    border: 1px solid black;
+    width: 100%;
+    
 }
 #Stopwatch{
     display: grid;
-    justify-content: center;
-    border: 2px solid black;
-    width: 300px;
-    height: 300px;
-    background:
+    /* justify-content: center; */
+    
+    
+    width: 100%;
+    height: 100%;
+    /* background:
     linear-gradient(red, transparent),
     linear-gradient(to top left, lime, transparent),
     linear-gradient(to top right, blue, transparent);
-    background-blend-mode: screen;
+    background-blend-mode: screen; */
     
 }
+.stopwatch-text{
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 #display{
-    height: 60px;
-    width: 200px;
-    border: 3px solid black;
+   
+   
     border-radius: 5px;
     display: flex;
-    font-size: 40px;
-    align-items:center;
+    font-size: 100px;
+    justify-self: flex-start;
+    margin-left: 60px;
+    
     
     
 }
@@ -35,13 +88,23 @@
 }
 .button{
     margin: 9px;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 90px;
     border: 3px solid black;
     border-radius: 50px;
+    cursor: pointer;
+    
+    
 }
 .keys{
     margin-top: 3px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    
+
+   
+    
 }
 .start{
     background-color: green;
@@ -52,4 +115,5 @@
 .stop{
     background-color: yellow;
 }
+
 
