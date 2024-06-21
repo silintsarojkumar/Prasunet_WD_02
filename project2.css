@@ -106,7 +106,7 @@ hr{
 .stop{
     background-color: yellow;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
     body{
         background-color: #dcdde1;
         margin: 0px;
